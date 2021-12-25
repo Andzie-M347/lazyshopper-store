@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "image": "./images/products/night-lights/1.jpg",
+    " images": [
+      "./images/products/night-lights/2.jpg",
+      "./images/products/night-lights/3.jpg"
+    ],
+    "title": "3D led Illusion Lamp Led Light Base for Acrylic Desk Lamp",
+    "description": "The base is for 4mm thickness acrylic sheet,you can buy only base with remote,and If you need,we also provide the whole set for you.",
+    "price": 250,
+    "rating": 4
+  },
+  {
+    "id": 2,
+    "image": "./images/products/night-lights/3.jpg",
+    " images": [
+      "./images/products/night-lights/2.jpg",
+      "./images/products/night-lights/3.jpg"
+    ],
+    "title": "3D led Illusion Lamp Led Light Base for Acrylic Desk Lamp",
+    "description": "The base is for 4mm thickness acrylic sheet,you can buy only base with remote,and If you need,we also provide the whole set for you.",
+    "price": 250,
+    "rating": 3
+  },
+  {
+    "id": 3,
+    "image": "./images/products/night-lights/2.jpg",
+    " images": [
+      "./images/products/night-lights/2.jpg",
+      "./images/products/night-lights/3.jpg"
+    ],
+    "title": "3D led Illusion Lamp Led Light Base for Acrylic Desk Lamp",
+    "description": "The base is for 4mm thickness acrylic sheet,you can buy only base with remote,and If you need,we also provide the whole set for you.",
+    "price": 250,
+    "rating": 5
+  },
+  {
+    "id": 4,
+    "image": "./images/products/night-lights/3.jpg",
+    " images": [
+      "./images/products/night-lights/2.jpg",
+      "./images/products/night-lights/3.jpg"
+    ],
+    "title": "3D led Illusion Lamp Led Light Base for Acrylic Desk Lamp",
+    "description": "The base is for 4mm thickness acrylic sheet,you can buy only base with remote,and If you need,we also provide the whole set for you.",
+    "price": 250,
+    "rating": 5
+  },
+  {
+    "id": 5,
+    "image": "./images/products/night-lights/3.jpg",
+    " images": [
+      "./images/products/night-lights/2.jpg",
+      "./images/products/night-lights/3.jpg"
+    ],
+    "title": "3D led Illusion Lamp Led Light Base for Acrylic Desk Lamp",
+    "description": "The base is for 4mm thickness acrylic sheet,you can buy only base with remote,and If you need,we also provide the whole set for you.",
+    "price": 250,
+    "rating": 2
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "icon": "./images/features/1.png",
+    "title": "Free Shipping",
+    "description": "Capped at R100 per order"
+  },
+  {
+    "id": 2,
+    "icon": "./images/features/2.png",
+    "title": "Card Payments",
+    "description": "12 Months Installments"
+  },
+  {
+    "id": 3,
+    "icon": "./images/features/3.png",
+    "title": "Easy Returns",
+    "description": "Shop With Confidence"
+  }
+]
