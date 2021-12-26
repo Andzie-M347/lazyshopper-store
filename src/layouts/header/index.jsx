@@ -45,14 +45,9 @@ export const Header = () => {
 
             <div className='col col-lg-auto align-self-center pl-0'>
               <div className='header-actions'>
-                <a
-                  href='#'
-                  className='header-action-btn'
-                  data-bs-toggle='modal'
-                  data-bs-target='#searchActive'
-                >
+                <span className='header-action-btn' data-bs-toggle='modal'>
                   <BiSearch />
-                </a>
+                </span>
 
                 <div className='header-bottom-set dropdown'>
                   <button

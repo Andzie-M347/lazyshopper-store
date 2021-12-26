@@ -1762,7 +1762,7 @@ body.offcanvas-open {
   top: auto;
   left: 0;
   width: 100%;
-  max-width: 1170px;
+  /* max-width: 1170px; */
   height: 1px;
   content: '';
   background-color: #454545;
@@ -6804,8 +6804,9 @@ Pages - My Account
 .product .content .title a {
   text-decoration: none;
   color: #747474;
-  font-size: 16px;
-  font-weight: 500;
+  font-size: 15px;
+  font-weight: 400;
+  padding: 0 10px;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px),
   only screen and (max-width: 575px) {
@@ -8733,6 +8734,19 @@ Pages - My Account
 
 .slider-nav-style-1.small-nav:hover .swiper-button-prev {
   left: 20px;
+}
+
+.slick-track > div:first-of-type {
+  margin-left: -15px !important;
+}
+
+.slick-track > div:last-of-type {
+  margin-right: -15px !important;
+}
+
+.slick-track .product {
+  margin-right: 15px;
+  margin-left: 15px;
 }
 
 /*===================================

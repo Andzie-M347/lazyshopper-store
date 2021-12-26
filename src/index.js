@@ -4,7 +4,8 @@ import App from './App';
 
 // Styling
 import 'bootstrap/dist/css/bootstrap.css';
-// import 'animate.css/animate.min.css';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
 import './assets/css/app.css';
 
 ReactDOM.render(

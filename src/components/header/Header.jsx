@@ -1,4 +1,4 @@
-export const Header = ({ title, subtitle }) => {
+export const PageHeader = ({ title, subtitle }) => {
   return (
     <div className='col-12'>
       <div className='section-title text-center mb-60px'>

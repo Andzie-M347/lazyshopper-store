@@ -2,7 +2,13 @@ import React from 'react';
 import { Layout } from '../layouts';
 
 // Containers
-import { Showcase, Features, BestProducts } from '../containers/index';
+import {
+  Showcase,
+  Features,
+  BestProducts,
+  Categories,
+  WeeklyProducts,
+} from '../containers/index';
 
 export const Home = () => {
   return (
@@ -10,6 +16,8 @@ export const Home = () => {
       <Showcase />
       <Features />
       <BestProducts />
+      <Categories />
+      <WeeklyProducts />
     </Layout>
   );
 };

@@ -1,5 +1,5 @@
 import { Product } from '../../components/home/Product';
-import { Header } from '../../components/header/Header';
+import { PageHeader } from '../../components/header/Header';
 
 import products from '../../data/products.json';
 
@@ -8,7 +8,7 @@ export const BestProducts = () => {
     <section className='product-area pt-100px'>
       <div className='container'>
         <div className='row'>
-          <Header
+          <PageHeader
             title='Best Products'
             subtitle='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod incididunt ut labore et dolore magna aliqua.'
@@ -18,13 +18,17 @@ export const BestProducts = () => {
         {/* .Products */}
         <div className='row'>
           {products.map((product) => (
-            <Product
+            <div
+              className='col-lg-4 col-xl-3 col-md-6 col-sm-6 col-xs-6 mt-5 mb-md-30px mb-lm-30px'
               key={product.id}
-              image={product.image}
-              title={product.title}
-              price={product.price}
-              rating={product.rating}
-            />
+            >
+              <Product
+                image={product.image}
+                title={product.title}
+                price={product.price}
+                rating={product.rating}
+              />
+            </div>
           ))}
         </div>
       </div>{' '}
