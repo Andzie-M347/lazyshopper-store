@@ -1,17 +1,42 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
 // ASSETS
 import logo from '../../assets/images/logo/logo.png';
 
 import { RiShoppingBag3Line } from 'react-icons/ri';
-import { AiOutlineUser } from 'react-icons/ai';
+import { AiOutlineUser, AiOutlineMenu } from 'react-icons/ai';
 import { BiSearch } from 'react-icons/bi';
+import { VscChevronDown } from 'react-icons/vsc';
 
 export const Header = () => {
+  const [scroll, setScroll] = useState(false);
+
+  useEffect(() => {
+    const listenToScroll = () => {
+      let scrollPosition = window.scrollY;
+
+      if (scrollPosition >= 90) {
+        setScroll(true);
+      } else {
+        setScroll(false);
+      }
+    };
+
+    window.addEventListener('scroll', () => {
+      listenToScroll();
+    });
+  }, [scroll]);
+
   return (
     <header>
-      <div className='header-main sticky-nav '>
+      <div
+        className={
+          scroll
+            ? 'header-main sticky-nav menu_fixed animated fadeInDown'
+            : 'header-main sticky-nav'
+        }
+      >
         <div className='container position-relative'>
           <div className='row'>
             <div className='col-auto align-self-center'>
@@ -36,8 +61,12 @@ export const Header = () => {
 
                   <li className='dropdown position-static'>
                     <Link to='/products/'>
-                      Shop <i className='fa fa-angle-down'></i>
+                      Shop <VscChevronDown />
                     </Link>
+                  </li>
+
+                  <li>
+                    <Link to='/contact/'>contact</Link>
                   </li>
                 </ul>
               </div>
@@ -86,13 +115,13 @@ export const Header = () => {
 
                   <span className='header-action-num'>01</span>
 
-                  {/* <span className='cart-amount'>R30.00</span> */}
+                  <span className='cart-amount'>R30.00</span>
                 </a>
                 <a
                   href='#offcanvas-mobile-menu'
                   className='header-action-btn header-action-btn-menu offcanvas-toggle d-lg-none'
                 >
-                  <i className='pe-7s-menu'></i>
+                  <AiOutlineMenu />
                 </a>
               </div>
             </div>
