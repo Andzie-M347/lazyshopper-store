@@ -10,27 +10,27 @@ export const ProductsFooterNav = () => {
       <div className='pages'>
         <ul>
           <li className='li'>
-            <a className='page-link' href='#'>
+            <a className='page-link' href='http://'>
               <VscChevronLeft />
             </a>
           </li>
           <li className='li'>
-            <a className='page-link' href='#'>
+            <a className='page-link' href='http://'>
               1
             </a>
           </li>
           <li className='li'>
-            <a className='page-link active' href='#'>
+            <a className='page-link active' href='http://'>
               2
             </a>
           </li>
           <li className='li'>
-            <a className='page-link' href='#'>
+            <a className='page-link' href='http://'>
               3
             </a>
           </li>
           <li className='li'>
-            <a className='page-link' href='#'>
+            <a className='page-link' href='http://'>
               <VscChevronRight />
             </a>
           </li>

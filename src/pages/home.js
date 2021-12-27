@@ -8,6 +8,7 @@ import {
   BestProducts,
   Categories,
   WeeklyProducts,
+  // Testimonials,
 } from '../containers/index';
 
 export const Home = () => {
@@ -18,6 +19,7 @@ export const Home = () => {
       <BestProducts />
       <Categories />
       <WeeklyProducts />
+      {/* <Testimonials /> */}
     </Layout>
   );
 };

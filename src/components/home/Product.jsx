@@ -7,8 +7,12 @@ export const Product = ({ image, title, price, rating }) => {
     <div className='product'>
       <div className='thumb'>
         <a href='single-product.html' className='image'>
-          <img src={process.env.PUBLIC_URL + image} alt='Product' />
-          <img className='hover-image' src={image} alt='Product' />
+          <img src={process.env.PUBLIC_URL + `/${image}`} alt='Product' />
+          <img
+            className='hover-image'
+            src={process.env.PUBLIC_URL + `/${image}`}
+            alt='Product'
+          />
         </a>
         <span className='badges'></span>
         <div className='actions'>

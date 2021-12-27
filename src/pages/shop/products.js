@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import { Product } from '../../components/home/Product';
 import { PageLayout } from '../../layouts/page-layout';
 import { ProductTab } from '../../components/pages/products-tab';
@@ -13,9 +14,9 @@ export const Products = () => {
           <div className='row'>
             <div className='col-12'>
               <div className='sidebar-widget-image'>
-                <a href='#' className='single-banner'>
+                <Link to='/product/:id' className='single-banner'>
                   <img src='assets/images/banner/13.jpg' alt='' />
-                </a>
+                </Link>
               </div>
 
               <ProductTab />
@@ -27,12 +28,6 @@ export const Products = () => {
                     <div className='tab-content'>
                       <div className='tab-pane fade show active' id='shop-grid'>
                         <div className='row mb-n-30px'>
-                          <div
-                            className='col-md-4 col-sm-6 col-xs-6 mb-30px'
-                            data-aos='fade-up'
-                            data-aos-delay='400'
-                          ></div>
-
                           {products.map((product) => (
                             <div
                               className='col-md-4 col-sm-6 col-xs-6 mb-30px'

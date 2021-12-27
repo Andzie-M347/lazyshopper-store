@@ -5,6 +5,8 @@ import { Newsletter } from './newsletter';
 import { IoLocationOutline } from 'react-icons/io5';
 import { GoDeviceMobile } from 'react-icons/go';
 
+import logo from '../../assets/images/logo/logo-light.svg';
+
 export const Footer = () => {
   return (
     <Fragment>
@@ -18,55 +20,25 @@ export const Footer = () => {
               <div className='row'>
                 <div className='col-md-6 col-sm-6 col-lg-3 mb-md-30px mb-lm-30px'>
                   <div className='single-wedge'>
-                    <h4 className='footer-herading'>Information</h4>
+                    <h4 className='footer-herading'>
+                      <img src={logo} alt='lazyshopper logo' height='70px' />
+                    </h4>
                     <div className='footer-links'>
                       <div className='footer-row'>
-                        <ul className='align-items-center'>
-                          <li className='li'>
-                            <a className='single-link' href='about.html'>
-                              About us
-                            </a>
-                          </li>
-                          <li className='li'>
-                            <a className='single-link' href='#'>
-                              Delivery information
-                            </a>
-                          </li>
-                          <li className='li'>
-                            <a
-                              className='single-link'
-                              href='privacy-policy.html'
-                            >
-                              Privacy Policy
-                            </a>
-                          </li>
-                          <li className='li'>
-                            <a className='single-link' href='#'>
-                              Sales
-                            </a>
-                          </li>
-                          <li className='li'>
-                            <a className='single-link' href='#'>
-                              Terms & Conditions
-                            </a>
-                          </li>
-                          <li className='li'>
-                            <a className='single-link' href='#'>
-                              Shipping Policy
-                            </a>
-                          </li>
-                          <li className='li'>
-                            <a className='single-link' href='#'>
-                              EMI Payment
-                            </a>
-                          </li>
-                        </ul>
+                        <p>
+                          When you need some shopping done, get the most out of
+                          your free time. Cut the hustle and do it your way with
+                          Lazy Shopper's unique shopping experience
+                        </p>
                       </div>
                     </div>
                   </div>
                 </div>
 
-                <div className='col-md-6 col-lg-3 col-sm-6 mb-lm-30px'>
+                <div
+                  className='col-md-6 col-lg-5 col-sm-6 mb-lm-30px'
+                  style={{ visibility: 'hidden' }}
+                >
                   <div className='single-wedge'>
                     <h4 className='footer-herading'>Account</h4>
                     <div className='footer-links'>
@@ -84,81 +56,8 @@ export const Footer = () => {
                             </a>
                           </li>
                           <li className='li'>
-                            <a className='single-link' href='#'>
-                              Returns
-                            </a>
-                          </li>
-                          <li className='li'>
-                            <a
-                              className='single-link'
-                              href='shop-left-sidebar.html'
-                            >
-                              Shipping
-                            </a>
-                          </li>
-                          <li className='li'>
-                            <a className='single-link' href='wishlist.html'>
-                              Wishlist
-                            </a>
-                          </li>
-                          <li className='li'>
-                            <a className='single-link' href='#'>
-                              How Does It Work
-                            </a>
-                          </li>
-                          <li className='li'>
-                            <a className='single-link' href='#'>
-                              Merchant Sign Up
-                            </a>
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div className='col-md-6 col-lg-2 col-sm-6 mb-sm-30px'>
-                  <div className='single-wedge'>
-                    <h4 className='footer-herading'>Store </h4>
-                    <div className='footer-links'>
-                      <div className='footer-row'>
-                        <ul className='align-items-center'>
-                          <li className='li'>
-                            <a className='single-link' href='index.html'>
-                              Affiliate
-                            </a>
-                          </li>
-                          <li className='li'>
-                            <a
-                              className='single-link'
-                              href='shop-left-sidebar.html'
-                            >
-                              Bestsellers
-                            </a>
-                          </li>
-                          <li className='li'>
-                            <a className='single-link' href='#'>
-                              Discount
-                            </a>
-                          </li>
-                          <li className='li'>
-                            <a className='single-link' href='#'>
-                              Latest products
-                            </a>
-                          </li>
-                          <li className='li'>
-                            <a className='single-link' href='#'>
-                              Sale
-                            </a>
-                          </li>
-                          <li className='li'>
-                            <a className='single-link' href='#'>
-                              All Collection
-                            </a>
-                          </li>
-                          <li className='li'>
-                            <a className='single-link' href='contact.html'>
-                              Contact Us
+                            <a className='single-link' href='cart.html'>
+                              Cart
                             </a>
                           </li>
                         </ul>
