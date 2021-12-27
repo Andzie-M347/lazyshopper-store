@@ -1,6 +1,9 @@
+import React, { useState } from 'react';
 import { GoMailRead } from 'react-icons/go';
 
 export const Newsletter = () => {
+  const [email, setEmail] = useState('');
+
   return (
     <div className='newsletter-area '>
       <div className='container line-shape-bottom'>
@@ -29,23 +32,16 @@ export const Newsletter = () => {
                       required=''
                       placeholder='Enter Your Mail Here.......'
                       name='EMAIL'
-                      value=''
+                      value={email}
+                      onChange={(e) => setEmail(e.target.value)}
                     />
-                    <div className='mc-news d-none' aria-hidden='true'>
-                      <input
-                        type='text'
-                        value=''
-                        tabindex='-1'
-                        name='b_6bbb9b6f5827bd842d9640c82_05d85f18ef'
-                      />
-                    </div>
+
                     <div className='clear'>
                       <button
                         id='mc-embedded-subscribe'
                         className='button'
                         type='submit'
                         name='subscribe'
-                        value=''
                       >
                         {' '}
                         Submit
