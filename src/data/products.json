@@ -2,66 +2,123 @@
   {
     "id": 1,
     "image": "./images/products/gadgets/1.jpg",
-    " images": [
-      "./images/products/gadgets/2.jpg",
-      "./images/products/gadgets/3.jpg"
+    "images": [
+      {
+        "id": 1,
+        "image": "./images/products/gadgets/1.jpg"
+      },
+      {
+        "id": 2,
+        "image": "./images/products/gadgets/2.jpg"
+      },
+      {
+        "id": 3,
+        "image": "./images/products/gadgets/3.jpg"
+      }
     ],
     "title": "3D led Illusion Lamp Led Light Base for Acrylic Desk Lamp",
     "description": "The base is for 4mm thickness acrylic sheet,you can buy only base with remote,and If you need,we also provide the whole set for you.",
     "price": 250,
+    "oldPrice": 286,
     "rating": 4,
-    "category": "gadgets"
+    "category": "gadgets",
+    "slug": "the_base_is_for_4mm_thickness_acrylic_sheet"
   },
   {
     "id": 2,
     "image": "./images/products/health/sauvace.jpg",
-    " images": [
-      "./images/products/health/sauvace-1.jpg",
-      "./images/products/health/sauvace-2.jpg"
+    "images": [
+      {
+        "id": 1,
+        "image": "./images/products/health/sauvace.jpg"
+      },
+      {
+        "id": 2,
+        "image": "./images/products/health/sauvace-1.jpg"
+      },
+      {
+        "id": 3,
+        "image": "./images/products/health/sauvace-2.jpg"
+      }
     ],
     "title": "Wildness 100ml perfume Eau De Toilette parfume  Eau De Cologne Eau De Toilette",
     "description": null,
     "price": 350,
     "rating": 3,
-    "category": "beauty and health"
+    "category": "beauty and health",
+    "slug": "wildness_100ml_perfume_eau_de_toilette_parfume"
   },
   {
     "id": 3,
     "image": "./images/products/health/versage.jpg",
-    " images": [
-      "./images/products/health/versage-1.jpg",
-      "./images/products/health/versage-2.jpg"
+    "images": [
+      {
+        "id": 1,
+        "image": "./images/products/health/versage.jpg"
+      },
+
+      {
+        "id": 2,
+        "image": "./images/products/health/versage-1.jpg"
+      },
+
+      {
+        "id": 3,
+        "image": "./images/products/health/versage-2.jpg"
+      }
     ],
     "title": "Osmanthus Peony Pomegranate fragrance Adjustable diamond series perfume 50mBlack diamond Star Night Crystal Enchantress Perfume",
     "description": null,
     "price": 430,
     "rating": 5,
-    "category": "beauty and health"
+    "category": "beauty and health",
+    "slug": "osmanthus_peony_pomegranate_fragrance"
   },
   {
     "id": 4,
     "image": "./images/products/health/hojo.jpg",
-    " images": ["./images/products/health/hojo-1.jpg"],
+    "images": [
+      {
+        "id": 1,
+        "image": "./images/products/health/hojo.jpg"
+      },
+
+      {
+        "id": 2,
+        "image": "./images/products/health/hojo-1.jpeg"
+      }
+    ],
     "title": "HOJO lip balm new style 2021 hot product collagen mask moisturizing lips natural vegan organic lip balm care",
     "description": null,
     "price": 430,
     "rating": 5,
-    "category": "beauty and health"
+    "category": "beauty and health",
+    "slug": "hojo_lip_balm_new_style_2021"
   },
   {
     "id": 5,
     "image": "./images/products/gadgets/apexhd.jpg",
-    " images": ["./images/products/gadgets/apexhd-1.jpg"],
+    "images": [
+      {
+        "id": 1,
+        "image": "./images/products/gadgets/apexhd.jpg"
+      },
+      {
+        "id": 2,
+        "image": "./images/products/gadgets/apexhd-1.jpg"
+      }
+    ],
     "title": "APEXEL HD Travel Phone Lens 195 degree Fisheye Lens Factory Price Mobile Phone Camera Lens For iPhone",
     "description": null,
     "price": 430,
     "rating": 4,
-    "category": "gadgets"
+    "category": "gadgets",
+    "slug": "apexel_hd_travel_phone_lens_degree_fisheye_lens"
   },
   {
     "id": 6,
     "image": "./images/products/health/royues.jpg",
-    " images": [
+    "images": [
       "./images/products/health/royues-1.jpg",
       "./images/products/health/royues-2.jpg"
     ],
@@ -69,22 +126,24 @@
     "description": null,
     "price": 230,
     "rating": 5,
-    "category": "beauty and health"
+    "category": "beauty and health",
+    "slug": "apexel_hd_travel_phone_lens_degree_fisheye_lens"
   },
   {
     "id": 7,
     "image": "./images/products/gadgets/condeser.jpg",
-    " images": ["./images/products/gadgets/condeser-1.jpg"],
+    "images": ["./images/products/gadgets/condeser-1.jpg"],
     "title": "Professional condenser recording studio USB microphone professional with tripod stand for computer Live Recording Gaming",
     "description": null,
     "price": 280,
     "rating": 5,
-    "category": "gadgets"
+    "category": "gadgets",
+    "slug": "professional_condenser_recording_studio_usb_microphone"
   },
   {
     "id": 8,
     "image": "./images/products/health/peruvian.jpg",
-    " images": [
+    "images": [
       "./images/products/health/peruvian-1.jpg",
       "./images/products/health/peruvian-2.jpg",
       "./images/products/health/peruvian-3.jpg"
@@ -93,6 +152,7 @@
     "description": null,
     "price": 280,
     "rating": 5,
-    "category": "beauty and health"
+    "category": "beauty and health",
+    "slug": "european_american_wigs_real_slick_stick_human_hair_extension"
   }
 ]

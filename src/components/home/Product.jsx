@@ -1,8 +1,10 @@
+import { Link } from 'react-router-dom';
+
 import { IoIosHeartEmpty, IoIosGitCompare, IoIosStar } from 'react-icons/io';
 import { IoEyeOutline } from 'react-icons/io5';
 import { truncate } from '../../utils/helpers';
 
-export const Product = ({ image, title, price, rating }) => {
+export const Product = ({ image, title, price, rating, slug }) => {
   return (
     <div className='product'>
       <div className='thumb'>
@@ -46,7 +48,7 @@ export const Product = ({ image, title, price, rating }) => {
           <span className='rating-num'>( 3 Review )</span>
         </span>
         <h5 className='title'>
-          <a href='single-product.html'>{truncate(title)}</a>
+          <Link to={`/product/${slug}`}>{truncate(title)}</Link>
         </h5>
         <span className='price'>
           <span className='new'>R{price.toFixed(2)}</span>

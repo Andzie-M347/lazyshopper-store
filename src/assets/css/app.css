@@ -9395,3 +9395,8 @@ Pages - My Account
   padding: 0 0 1px;
   border-bottom: 1px solid #fff;
 }
+
+/* NEW */
+.product-details-content .pro-details-rating-wrap svg {
+  color: #ffde00;
+}

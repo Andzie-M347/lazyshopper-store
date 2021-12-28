@@ -1,10 +1,10 @@
-import { Link } from 'react-router-dom';
 import { Product } from '../../components/home/Product';
 import { PageLayout } from '../../layouts/page-layout';
 import { ProductTab } from '../../components/pages/products-tab';
-
-import products from '../../data/products.json';
 import { ProductsFooterNav } from '../../components/pages/products-footer-nav';
+
+// Products data
+import products from '../../data/products.json';
 
 export const Products = () => {
   return (
@@ -13,12 +13,6 @@ export const Products = () => {
         <div className='container'>
           <div className='row'>
             <div className='col-12'>
-              <div className='sidebar-widget-image'>
-                <Link to='/product/:id' className='single-banner'>
-                  <img src='assets/images/banner/13.jpg' alt='' />
-                </Link>
-              </div>
-
               <ProductTab />
 
               {/* Products Area */}
@@ -40,6 +34,7 @@ export const Products = () => {
                                 title={product.title}
                                 price={product.price}
                                 rating={product.rating}
+                                slug={product.slug}
                               />
                             </div>
                           ))}

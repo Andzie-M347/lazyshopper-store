@@ -2,7 +2,7 @@ import { Fragment, useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import AOS from 'aos';
 import SEO from './components/seo';
-import { Home, Checkout, Products } from './pages';
+import { Home, Checkout, Products, ProductDetails } from './pages';
 
 import ScrollTop from './components/footer/scrollTop';
 
@@ -27,6 +27,7 @@ const App = () => {
           <Route path='/' exact element={<Home />} />
           <Route path='/checkout/' exact element={<Checkout />} />
           <Route path='/products/' exact element={<Products />} />
+          <Route path='/product/:slug' exact element={<ProductDetails />} />
         </Routes>
       </Router>
     </Fragment>

@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
 // ASSETS
-import logo from '../../assets/images/logo/logo.png';
+import { ReactComponent as Logo } from '../../assets/images/logo/logo.svg';
 
 import { RiShoppingBag3Line } from 'react-icons/ri';
 import { AiOutlineUser, AiOutlineMenu } from 'react-icons/ai';
@@ -42,7 +42,7 @@ export const Header = () => {
             <div className='col-auto align-self-center'>
               <div className='header-logo'>
                 <Link to='/'>
-                  <img src={logo} alt='Site Logo' />
+                  <Logo style={{ height: 60 }} />
                 </Link>
               </div>
             </div>
